@@ -1,0 +1,32 @@
+  .navbar {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background: #457feb;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  #brand-logo {
+    /* mix-blend-mode:  overlay; */
+    filter: hue-rotate(-280deg);
+  }
+  
+  .navbar .navbar-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 30px;
+  }
+  
+  .navbar .navbar-list a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navbar .navbar-list a:hover {
+    text-decoration: underline;
+    color: #f96d00;
+    text-shadow: none;
+  }
+  
